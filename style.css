@@ -212,8 +212,12 @@ nav {
         display: flex;
         gap: 5px;
         overflow: scroll;
-        margin-bottom: 20px;
-        padding:0;
+        /* margin-bottom: 20px; */
+        padding:20px 0;
+        position: sticky;
+        top:0;
+        background-color: #000000;
+        outline: 1px solid black;
     }
 
     .tab-content {
@@ -262,5 +266,8 @@ nav {
         white-space: nowrap;
     }
 
+    #brain-health-content .primary-bg-black{
+        padding-top: 0;
+    }
 
 }
